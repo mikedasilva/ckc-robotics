@@ -1,6 +1,6 @@
 # CKC Robotics
 
-A collection of robotics programs. Each project lives in its own folder with its own code, docs, and parts list.
+A collection of robotics projects for programs run by the County Kids Club. Each project lives in its own folder with its own code, docs, and parts list.
 
 ## Projects
 
@@ -20,3 +20,7 @@ my-new-robot/
 ```
 
 Then add a row to the **Projects** table above.
+
+## License
+
+[MIT](LICENSE) © 2026 Mike Da Silva and County Kids Club.
