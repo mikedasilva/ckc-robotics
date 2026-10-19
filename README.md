@@ -23,4 +23,4 @@ Then add a row to the **Projects** table above.
 
 ## License
 
-[MIT](LICENSE) © 2026 Mike Da Silva and County Kids Club.
+These projects were created for robotics programs run by the County Kids Club and are shared under the [MIT License](LICENSE) © 2026 Mike Da Silva and County Kids Club.
