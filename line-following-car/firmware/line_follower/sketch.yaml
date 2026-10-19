@@ -1,0 +1,17 @@
+# arduino-cli sketch profile (ignored by the Arduino IDE)
+# Usage:
+#   arduino-cli compile --profile nano
+#   arduino-cli upload  --profile nano -p <PORT>
+default_fqbn: arduino:avr:nano
+default_profile: nano
+
+profiles:
+  nano:
+    fqbn: arduino:avr:nano
+    platforms:
+      - platform: arduino:avr
+  # Many Nano clones ship with the old bootloader; use this profile if uploads fail.
+  nano-old-bootloader:
+    fqbn: arduino:avr:nano:cpu=atmega328old
+    platforms:
+      - platform: arduino:avr
